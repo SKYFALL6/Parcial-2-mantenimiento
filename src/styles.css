@@ -64,7 +64,7 @@ nav {
 }
 
 .menu-icon:hover span {
-    background-color: #555; /* Gris oscuro al pasar el mouse */
+    background-color: #ffffff; /* Gris oscuro al pasar el mouse */
 }
 
 .menu {
@@ -96,6 +96,10 @@ nav {
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Sombra más intensa */
         padding: 10px;
         border-radius: 5px;
+    }
+
+    #menu-hamburguesa { /*para esconde el cuadrito del chulito*/
+        display: none;
     }
 
     #menu-hamburguesa:checked + .menu-icon + .menu {
@@ -390,7 +394,7 @@ nav {
     margin-right: 10px;
 }
 
-/* Ajustes específicos para dispositivos móviles */
+
 @media (max-width: 768px) {
     .social-icon {
         width: 11px; /* Reduce el tamaño en pantallas más pequeñas */
